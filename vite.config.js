@@ -2,9 +2,9 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/todo-app/', // 👈 MUST match your GitHub repo name exactly
+  base: '/todo-app/', // Your GitHub repo name
   plugins: [react()],
   server: {
-    port: 5173, // optional: useful for local dev
+    port: 5173,
   },
 });
